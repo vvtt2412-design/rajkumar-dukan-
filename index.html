@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vaibhav Steel</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Segoe UI', sans-serif;
+}
+
+body{
+  background:#f4f8fb;
+  color:#222;
+}
+
+/* HEADER */
+.header{
+  background:linear-gradient(135deg,#b71c1c,#ff6f00);
+  color:white;
+  padding:25px;
+  text-align:center;
+}
+.header h1{
+  font-size:34px;
+  letter-spacing:2px;
+}
+.header p{
+  margin-top:5px;
+  font-size:15px;
+}
+
+/* ORDER BAR */
+.order-bar{
+  background:#1b5e20;
+  color:white;
+  text-align:center;
+  padding:15px;
+  font-size:17px;
+}
+
+/* SECTION */
+.section{
+  padding:30px 15px;
+  max-width:1100px;
+  margin:auto;
+}
+.section h2{
+  text-align:center;
+  margin-bottom:20px;
+  color:#b71c1c;
+}
+
+/* INFO CARD */
+.info-card{
+  background:white;
+  border-radius:15px;
+  padding:20px;
+  text-align:center;
+  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+  line-height:1.6;
+}
+
+/* WARNING */
+.warning{
+  background:#d32f2f;
+  color:white;
+  padding:15px;
+  text-align:center;
+  font-weight:bold;
+}
+
+/* CATEGORY */
+.category{
+  margin-top:30px;
+}
+.category h3{
+  background:#263238;
+  color:white;
+  padding:10px;
+  border-radius:8px;
+  margin-bottom:10px;
+  text-align:center;
+}
+
+/* ITEMS GRID */
+.items{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+  gap:12px;
+}
+.item{
+  background:white;
+  padding:10px;
+  text-align:center;
+  border-radius:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+  font-size:14px;
+}
+
+/* BUTTONS */
+.btn{
+  display:inline-block;
+  background:#1976d2;
+  color:white;
+  padding:12px 22px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:bold;
+}
+.btn:hover{background:#0d47a1;}
+
+.order-btn{
+  background:#25D366;
+  color:white;
+  padding:15px 30px;
+  border-radius:50px;
+  text-decoration:none;
+  font-size:18px;
+  font-weight:bold;
+}
+.order-btn:hover{background:#1ebc5a;}
+
+/* FOOTER */
+.footer{
+  background:#263238;
+  color:white;
+  text-align:center;
+  padding:20px;
+  margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>VAIBHAV STEEL</h1>
+  <p>Steel • Brass • Copper • Aluminium Utensils</p>
+</div>
+
+<div class="order-bar">
+  📞 Order Now: 9752060129 | 6264896133
+</div>
+
+<div class="section">
+  <div class="info-card">
+    Retail & Wholesale Available<br>
+    Wedding & Hotel Orders Accepted<br>
+    Best Quality Utensils at Best Price
+  </div>
+</div>
+
+<div class="warning">
+  ⚠️ No Credit • No Return After Sale
+</div>
+
+<div class="section">
+
+  <!-- STEEL -->
+  <div class="category">
+    <h3>STEEL UTENSILS</h3>
+    <div class="items">
+      <div class="item">Steel Plate</div>
+      <div class="item">Steel Thali</div>
+      <div class="item">Steel Bowl</div>
+      <div class="item">Steel Katori</div>
+      <div class="item">Steel Glass</div>
+      <div class="item">Steel Spoon</div>
+      <div class="item">Steel Patila</div>
+      <div class="item">Steel Cooker</div>
+      <div class="item">Steel Kadai</div>
+      <div class="item">Steel Fry Pan</div>
+      <div class="item">Steel Tawa</div>
+      <div class="item">Steel Handi</div>
+      <div class="item">Steel Tiffin</div>
+      <div class="item">Steel Water Jug</div>
+      <div class="item">Steel Masala Box</div>
+      <div class="item">Steel Idli Maker</div>
+    </div>
+  </div>
+
+  <!-- BRASS -->
+  <div class="category">
+    <h3>BRASS (PITAL)</h3>
+    <div class="items">
+      <div class="item">Brass Plate</div>
+      <div class="item">Brass Bowl</div>
+      <div class="item">Brass Glass</div>
+      <div class="item">Brass Lota</div>
+      <div class="item">Brass Kalash</div>
+      <div class="item">Brass Diya</div>
+      <div class="item">Brass Diya Set</div>
+      <div class="item">Brass Aarti Lamp</div>
+      <div class="item">Brass Bell</div>
+      <div class="item">Brass Urli</div>
+      <div class="item">Brass Handi</div>
+      <div class="item">Brass Degchi</div>
+      <div class="item">Brass Pooja Thali</div>
+      <div class="item">Brass Masala Box</div>
+    </div>
+  </div>
+
+  <!-- COPPER -->
+  <div class="category">
+    <h3>COPPER (TAMBA)</h3>
+    <div class="items">
+      <div class="item">Copper Water Jug</div>
+      <div class="item">Copper Glass</div>
+      <div class="item">Copper Lota</div>
+      <div class="item">Copper Kalash</div>
+      <div class="item">Copper Handi</div>
+      <div class="item">Copper Patila</div>
+      <div class="item">Copper Pooja Thali</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="section" style="text-align:center;">
+  <a href="https://wa.me/6264896133" class="order-btn">📦 Order on WhatsApp</a>
+  <br><br>
+  <a href="https://vvtt2412-design.github.io/sceener/" class="btn">⚙️ WORKSHOP</a>
+  <p style="margin-top:15px;font-weight:bold;">All workers will work here</p>
+</div>
+
+<div class="footer">
+  Rajkumar Tamrakar & Bartan Store<br>
+  Main Road, Near Bus Stand<br>
+  PIN – 470772
+</div>
+<!-- SHOP LOCATION -->
+<div style="
+max-width:1100px;
+margin:40px auto;
+padding:20px;
+background:white;
+border-radius:16px;
+box-shadow:0 10px 25px rgba(0,0,0,0.12);
+">
+
+  <h2 style="text-align:center; color:#b71c1c; margin-bottom:10px;">
+    📍 Our Shop Location
+  </h2>
+
+  <p style="text-align:center; margin-bottom:20px;">
+    Rajkumar Tamrakar & Bartan Store<br>
+    Main Road, Near Bus Stand<br>
+    PIN – <b>470772</b>
+  </p>
+
+  <!-- MAP -->
+  <div style="border-radius:12px; overflow:hidden;">
+    <iframe
+      src="https://www.google.com/maps?q=Rajkumar+Tamrakar+Peetal+Bartan+Dookan&output=embed"
+      width="100%"
+      height="320"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy">
+    </iframe>
+  </div>
+
+  <!-- BUTTONS -->
+  <div style="text-align:center; margin-top:20px;">
+    <a href="https://www.google.com/maps/place/Rajkumar+Tamrakar+Peetal+Bartan+Dookan/"
+       target="_blank"
+       style="
+       display:inline-block;
+       background:#1976d2;
+       color:white;
+       padding:12px 22px;
+       text-decoration:none;
+       border-radius:8px;
+       font-weight:bold;
+       margin:5px;
+       ">
+       🧭 Get Directions
+    </a>
+
+    <a href="https://wa.me/6264896133"
+       style="
+       display:inline-block;
+       background:#25D366;
+       color:white;
+       padding:12px 22px;
+       text-decoration:none;
+       border-radius:8px;
+       font-weight:bold;
+       margin:5px;
+       ">
+       💬 WhatsApp Us
+    </a>
+  </div>
+
+</div>
+<section style="padding:40px 15px; background:#fff;">
+  <h2 style="text-align:center;color:#b71c1c;">⭐ Customer Reviews</h2>
+
+  <div style="max-width:1000px;margin:auto;
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;">
+
+    <div style="padding:20px;border-radius:16px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);">
+      ⭐⭐⭐⭐⭐<br>
+      “Bahut achi quality aur sahi rate.”
+      <br><b>- Local Customer</b>
+    </div>
+
+    <div style="padding:20px;border-radius:16px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);">
+      ⭐⭐⭐⭐⭐<br>
+      “Shaadi ka pura order yahin se liya.”
+      <br><b>- Wedding Client</b>
+    </div>
+
+    <div style="padding:20px;border-radius:16px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);">
+      ⭐⭐⭐⭐☆<br>
+      “Wholesale rate best hai.”
+      <br><b>- Shop Owner</b>
+    </div>
+
+  </div>
+</section>
+<div style="
+text-align:center;
+background:#2e7d32;
+color:white;
+padding:12px;
+font-weight:bold;
+">
+🟢 OPEN NOW — 9:00 AM to 9:00 PM
+</div>
+<section style="padding:30px 15px;background:#f5f5f5;text-align:center;">
+  <h2>🛒 Shop by Category</h2>
+
+  <a style="margin:6px;display:inline-block;padding:12px 18px;
+  background:#1976d2;color:white;border-radius:30px;text-decoration:none;">
+  Steel
+  </a>
+
+  <a style="margin:6px;display:inline-block;padding:12px 18px;
+  background:#ff9800;color:white;border-radius:30px;text-decoration:none;">
+  Brass
+  </a>
+
+  <a style="margin:6px;display:inline-block;padding:12px 18px;
+  background:#6d4c41;color:white;border-radius:30px;text-decoration:none;">
+  Copper
+  </a>
+
+  <a style="margin:6px;display:inline-block;padding:12px 18px;
+  background:#455a64;color:white;border-radius:30px;text-decoration:none;">
+  Aluminium
+  </a>
+</section>
+<div style="text-align:center;padding:30px;">
+  <input type="text" placeholder="Search utensils..."
+  style="
+  width:90%;max-width:400px;
+  padding:14px;
+  border-radius:30px;
+  border:1px solid #ccc;
+  font-size:16px;">
+</div>
+<section style="
+background:#263238;
+color:white;
+padding:30px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+text-align:center;
+">
+  <div>🚚 Home Delivery Available</div>
+  <div>🏨 Hotel & Marriage Orders</div>
+  <div>🏪 Retail & Wholesale</div>
+  <div>💯 Quality Guarantee</div>
+</section>
+<a href="https://wa.me/6264896133"
+style="
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:14px 18px;
+border-radius:50px;
+font-size:18px;
+text-decoration:none;
+box-shadow:0 8px 25px rgba(0,0,0,0.3);
+z-index:999;
+">
+💬 WhatsApp
+</a>
+<div style="text-align:center;padding:30px;">
+  <span style="margin:10px;">✅ 10+ Years Experience</span>
+  <span style="margin:10px;">✅ Trusted Local Shop</span>
+  <span style="margin:10px;">✅ Best Price Guarantee</span>
+</div>
+<section style="
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') center/cover;
+padding:80px 15px;
+color:white;
+text-align:center;
+">
+  <h1 style="font-size:40px;">Vaibhav Steel</h1>
+  <p style="font-size:18px;">Complete Utensil Solution Under One Roof</p>
+  <a href="https://wa.me/6264896133"
+     style="background:#25D366;padding:14px 30px;
+     color:white;border-radius:40px;text-decoration:none;font-size:18px;">
+     📦 Order Now
+  </a>
+</section>
+<section style="padding:40px 15px;background:#f7f7f7;">
+  <h2 style="text-align:center;">👨‍🔧 Our Workers</h2>
+
+  <div style="max-width:900px;margin:auto;
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px;text-align:center;">
+    <div style="background:white;padding:20px;border-radius:16px;">🔨 Workshop Staff</div>
+    <div style="background:white;padding:20px;border-radius:16px;">📦 Packing Team</div>
+    <div style="background:white;padding:20px;border-radius:16px;">🛒 Sales Team</div>
+    <div style="background:white;padding:20px;border-radius:16px;">🚚 Delivery Team</div>
+  </div>
+</section>
+<section style="
+padding:40px;
+background:#263238;
+color:white;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+text-align:center;
+gap:20px;">
+  <div><h2>10+</h2>Years Experience</div>
+  <div><h2>5000+</h2>Happy Customers</div>
+  <div><h2>100+</h2>Products</div>
+  <div><h2>24x7</h2>Support</div>
+</section>
+<section style="padding:40px 15px;">
+<h2 style="text-align:center;">🎯 Why Choose Us</h2>
+<div style="max-width:1000px;margin:auto;
+display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;">
+
+<div style="padding:20px;border-radius:16px;box-shadow:0 8px 20px rgba(0,0,0,0.1);">
+💎 Premium Quality Utensils
+</div>
+
+<div style="padding:20px;border-radius:16px;box-shadow:0 8px 20px rgba(0,0,0,0.1);">
+💰 Best Price Guarantee
+</div>
+
+<div style="padding:20px;border-radius:16px;box-shadow:0 8px 20px rgba(0,0,0,0.1);">
+🚚 Fast Delivery
+</div>
+
+<div style="padding:20px;border-radius:16px;box-shadow:0 8px 20px rgba(0,0,0,0.1);">
+🤝 Trusted by Locals
+</div>
+
+</div>
+</section>
+<section style="padding:40px;background:#f1f1f1;">
+<h2 style="text-align:center;">📩 Quick Enquiry</h2>
+
+<form style="max-width:500px;margin:auto;">
+<input type="text" placeholder="Your Name"
+style="width:100%;padding:12px;margin:8px 0;border-radius:8px;border:1px solid #ccc;">
+
+<input type="tel" placeholder="Mobile Number"
+style="width:100%;padding:12px;margin:8px 0;border-radius:8px;border:1px solid #ccc;">
+
+<textarea placeholder="Your Message"
+style="width:100%;padding:12px;margin:8px 0;border-radius:8px;border:1px solid #ccc;"></textarea>
+
+<button style="width:100%;padding:14px;
+background:#1976d2;color:white;border:none;border-radius:30px;font-size:16px;">
+Send Enquiry
+</button>
+</form>
+</section>
+<button onclick="document.body.classList.toggle('dark')"
+style="position:fixed;left:20px;bottom:20px;padding:10px;">
+🌙 Dark Mode
+</button>
+
+<style>
+.dark{
+  background:#121212;
+  color:white;
+}
+</style>
+<footer style="
+background:#111;
+color:#aaa;
+padding:30px;
+text-align:center;">
+  © 2026 Vaibhav Steel<br>
+  Steel • Brass • Copper • Aluminium
+</footer>
+<section style="
+background:linear-gradient(135deg,#ff512f,#dd2476);
+color:white;
+padding:20px;
+text-align:center;
+font-size:20px;
+font-weight:bold;
+">
+🔥 Today’s Offer: Bulk Order par Special Discount Available 🔥
+</section>
+<section style="
+max-width:900px;
+margin:40px auto;
+background:white;
+border-radius:16px;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+padding:25px;
+">
+
+<h2 style="text-align:center;color:#b71c1c;">📢 Shop Notice</h2>
+
+<ul style="line-height:1.8;font-size:16px;">
+  <li>🟢 Shop Open: 9:00 AM – 9:00 PM</li>
+  <li>🚚 Home Delivery Available</li>
+  <li>🏨 Hotel & Marriage Orders Accepted</li>
+  <li>💳 Cash & Online Payment Accepted</li>
+</ul>
+
+</section>
+<div style="
+position:sticky; top:0; z-index:999;
+background:#263238; color:white;
+display:flex; gap:10px; justify-content:center;
+padding:10px; font-weight:bold;">
+  <a href="#products" style="color:white;text-decoration:none;">🛒 Products</a>
+  <a href="#location" style="color:white;text-decoration:none;">📍 Location</a>
+  <a href="https://wa.me/6264896133" style="color:white;text-decoration:none;">💬 WhatsApp</a>
+</div>
+<section style="padding:40px 15px;background:#f7f7f7;">
+<h2 style="text-align:center;">🔥 Featured Products</h2>
+
+<div style="max-width:1100px;margin:auto;
+display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;">
+
+  <div style="background:white;padding:20px;border-radius:16px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.12);text-align:center;">
+    🥘<br><b>Steel Cooker</b><br>Best Seller
+  </div>
+
+  <div style="background:white;padding:20px;border-radius:16px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.12);text-align:center;">
+    🪔<br><b>Brass Diya Set</b><br>Festival Special
+  </div>
+
+  <div style="background:white;padding:20px;border-radius:16px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.12);text-align:center;">
+    💧<br><b>Copper Water Jug</b><br>Healthy Choice
+  </div>
+
+</div>
+</section>
+<section style="
+background:linear-gradient(135deg,#1e3c72,#2a5298);
+color:white;
+padding:30px;
+text-align:center;
+font-size:18px;
+">
+🚚 Same-Day Delivery Available in Nearby Areas  
+<br>
+⏱️ Fast Packing • Safe Handling • Trusted Service
+</section>
+<section style="
+max-width:1000px;
+margin:40px auto;
+background:white;
+padding:30px;
+border-radius:18px;
+box-shadow:0 10px 30px rgba(0,0,0,0.15);
+">
+
+<h2 style="text-align:center;color:#b71c1c;">📜 Shop Policy</h2>
+
+<ul style="line-height:1.9;font-size:16px;">
+  <li>✔️ All products are checked before selling.</li>
+  <li>✔️ No return or exchange once goods are sold.</li>
+  <li>✔️ No credit facility available.</li>
+  <li>✔️ Prices may change according to market rates.</li>
+  <li>✔️ Bulk, wedding & hotel orders are accepted.</li>
+  <li>✔️ Customers are requested to verify items at the time of purchase.</li>
+</ul>
+
+<p style="margin-top:15px;font-weight:bold;text-align:center;">
+Thank you for trusting Vaibhav Steel 🙏
+</p>
+<section style="
+max-width:1000px;
+margin:40px auto;
+background:#f7f7f7;
+padding:30px;
+border-radius:18px;
+box-shadow:0 10px 30px rgba(0,0,0,0.12);
+">
+
+<h2 style="text-align:center;color:#1e88e5;">💳 Payment & Delivery Policy</h2>
+
+<ul style="line-height:1.9;font-size:16px;">
+  <li>💰 Cash & Online payments are accepted.</li>
+  <li>📱 UPI, PhonePe, Google Pay & bank transfer available.</li>
+  <li>🚚 Home delivery available for nearby areas.</li>
+  <li>⏱️ Delivery time depends on order size & location.</li>
+  <li>📦 Packing is done carefully to avoid damage.</li>
+  <li>❗ Any transport damage is not our responsibility.</li>
+</ul>
+
+<p style="margin-top:15px;text-align:center;font-weight:600;">
+For any enquiry, please contact us before placing the order.
+</p>
+
+</section>
+
+</section>
+<section style="
+padding:70px 20px;
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+color:white;
+text-align:center;
+">
+
+  <h1 style="
+  font-size:48px;
+  letter-spacing:3px;
+  margin-bottom:20px;
+  ">
+  🙏 THANK YOU 🙏
+  </h1>
+
+  <p style="
+  max-width:900px;
+  margin:auto;
+  font-size:20px;
+  line-height:1.8;
+  opacity:0.95;
+  ">
+  Thank you for visiting <b>Vaibhav Steel</b>.<br><br>
+
+  Your trust and support mean everything to us.  
+  We are proud to serve our customers with the best quality  
+  <b>Steel, Brass, Copper & Aluminium utensils</b> at honest prices.<br><br>
+
+  Whether it is daily household needs, wedding orders,  
+  hotel supplies, or bulk purchases —  
+  we promise <b>quality, transparency, and satisfaction</b> every time.
+  </p>
+
+  <p style="
+  margin-top:30px;
+  font-size:22px;
+  font-weight:bold;
+  ">
+  💙 We look forward to serving you again 💙
+  </p>
+
+</section>
+<section style="
+padding:50px 20px;
+background:#ffffff;
+">
+
+  <div style="
+  max-width:1100px;
+  margin:auto;
+  padding:30px;
+  border-radius:20px;
+  box-shadow:0 15px 40px rgba(0,0,0,0.15);
+  ">
+
+  <h2 style="
+  text-align:center;
+  font-size:32px;
+  color:#b71c1c;
+  margin-bottom:25px;
+  ">
+  📑 Terms, Policy & Customer Commitment
+  </h2>
+
+  <h3>🛒 Product Quality Policy</h3>
+  <p>
+  All utensils sold at <b>Vaibhav Steel</b> are carefully selected and
+  checked before selling. Minor design or color variations may occur
+  depending on manufacturing batches.
+  </p>
+
+  <h3>🔄 Return & Exchange Policy</h3>
+  <p>
+  Once goods are sold, <b>no return or exchange</b> is allowed.
+  Customers are requested to inspect items properly before billing.
+  </p>
+
+  <h3>💳 Payment Policy</h3>
+  <p>
+  We accept cash and digital payments including UPI, PhonePe,
+  Google Pay, and bank transfers. Full payment must be completed
+  before delivery or dispatch.
+  </p>
+
+  <h3>🚚 Delivery & Transport Policy</h3>
+  <p>
+  Home delivery is available for nearby locations.
+  Transport charges (if any) will be informed in advance.
+  Any damage during third-party transport is not our responsibility.
+  </p>
+
+  <h3>🏨 Bulk & Wedding Orders</h3>
+  <p>
+  Bulk, marriage, hotel, and event orders are accepted with
+  prior confirmation. Advance payment may be required
+  depending on order size.
+  </p>
+
+  <h3>📞 Customer Support</h3>
+  <p>
+  For pricing, availability, or bulk enquiries, customers are
+  encouraged to contact us directly via call or WhatsApp.
+  </p>
+
+  <p style="
+  margin-top:30px;
+  font-weight:bold;
+  text-align:center;
+  font-size:18px;
+  ">
+  🤝 Customer Satisfaction is Our First Priority
+  </p>
+
+  </div>
+</section>
+<section style="
+padding:35px;
+background:linear-gradient(135deg,#11998e,#38ef7d);
+color:#053;
+font-size:20px;
+text-align:center;
+font-weight:bold;
+border-radius:20px;
+margin:40px auto;
+max-width:1000px;
+">
+🟢 SHOP STATUS: OPEN NOW  
+<br>
+🕘 Timing: 9:00 AM – 9:00 PM (All Days)
+</section>
+<section style="padding:50px 20px;background:#fafafa;">
+<h2 style="text-align:center;font-size:32px;">🏆 Why Customers Choose Us</h2>
+
+<div style="
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+max-width:1100px;
+margin:30px auto;
+">
+
+<div style="padding:25px;border-radius:18px;background:white;box-shadow:0 10px 25px rgba(0,0,0,0.12);">
+✔️ 20+ Years Trusted Business
+</div>
+
+<div style="padding:25px;border-radius:18px;background:white;box-shadow:0 10px 25px rgba(0,0,0,0.12);">
+✔️ Best Market Price Guarantee
+</div>
+
+<div style="padding:25px;border-radius:18px;background:white;box-shadow:0 10px 25px rgba(0,0,0,0.12);">
+✔️ Bulk & Wedding Order Expert
+</div>
+
+<div style="padding:25px;border-radius:18px;background:white;box-shadow:0 10px 25px rgba(0,0,0,0.12);">
+✔️ Genuine Quality Assurance
+</div>
+
+</div>
+</section>
+<section style="padding:50px 20px;">
+<h2 style="text-align:center;">🎯 Choose by Usage</h2>
+
+<div style="
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+max-width:1100px;
+margin:auto;
+">
+
+<div style="background:#e3f2fd;padding:30px;border-radius:20px;">
+<h3>🏠 Daily Use</h3>
+<p>Steel Plates, Glass, Bowls, Cookware</p>
+</div>
+
+<div style="background:#fff3e0;padding:30px;border-radius:20px;">
+<h3>🎉 Special Occasions</h3>
+<p>Brass Pooja Items, Copper Sets, Gift Items</p>
+</div>
+
+</div>
+</section>
+<div style="
+background:#ff6f00;
+color:white;
+padding:12px;
+text-align:center;
+font-weight:bold;
+letter-spacing:1px;
+">
+🎉 Wedding Season Special Discounts Available – Enquire Now!
+</div>
+<script>
+const search = document.getElementById("search");
+const items = document.querySelectorAll(".item");
+
+search.addEventListener("keyup", () => {
+  let value = search.value.toLowerCase();
+
+  items.forEach(item => {
+    item.style.display =
+      item.innerText.toLowerCase().includes(value)
+      ? "block"
+      : "none";
+  });
+});
+</script>
+
+
+<button onclick="party()">Click karo bhai 🎉</button>
+<canvas id="confetti"></canvas>
+
+</body>
+</html>
